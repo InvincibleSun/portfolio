@@ -50,6 +50,9 @@ nav {
 .navbar-nav .nav-link.active {
   color: var(--accent-color);
 }
+.navbar-nav .nav-link:hover {
+  color: var(--accent-color);
+}
 
 /* -----HERO------ */
 .hero {
@@ -112,7 +115,7 @@ h2 {
   font-size: 64px;
   line-height: 1.3;
 }
-.content p {
+.text {
   font-size: 16px;
   line-height: 1.9;
   color: rgba(39, 33, 66, 0.7);
@@ -131,6 +134,43 @@ h2 {
 
 .row {
   margin-bottom: 60px;
+}
+
+/* ----ABOUT------ */
+.hero-about {
+  height: 100%;
+  padding: 200px 10px;
+}
+
+.content-about {
+  padding-right: 94px;
+}
+.title-about {
+  font-family: var(--accent-font);
+  font-weight: 700;
+  font-size: 64px;
+  line-height: 1.3;
+}
+.subtitle-about {
+  font-weight: 700;
+  font-size: 18px;
+  color: var(--text-color);
+}
+
+@media (max-width: 1200px) {
+  .hero-about {
+    padding: 100px 10px;
+  }
+  .content-about {
+    padding: 10px;
+  }
+  .subtitle-about {
+    margin: 20px;
+  }
+  .text {
+    line-height: 1.5;
+    margin-bottom: 40px;
+  }
 }
 
 @media (max-width: 992px) {
@@ -167,6 +207,13 @@ h2 {
   }
   .row {
     margin-bottom: 50px;
+  }
+
+  .hero-about {
+    padding: 70px 10px;
+  }
+  .title-about {
+    font-size: 44px;
   }
 }
 
@@ -208,3 +255,5 @@ h2 {
     margin-bottom: 30px;
   }
 }
+
+/* ------------- */
