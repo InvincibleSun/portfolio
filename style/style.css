@@ -158,7 +158,7 @@ h2 {
 }
 
 /* -------WORK-------- */
-.work-top {
+.top {
   padding: 200px 10px 100px;
   max-width: 65%;
 }
@@ -173,6 +173,16 @@ h4 {
   font-size: 14px;
   text-align: center;
   color: rgba(39, 33, 66, 0.7);
+}
+
+/* ------CONTACT------- */
+.mail-link {
+  background-color: var(--main-color);
+  padding: 20px 30px;
+  border-radius: 5px;
+  border: 1px solid var(--accent-color);
+  display: block;
+  color: var(--accent-color);
 }
 
 @media (max-width: 1200px) {
@@ -195,11 +205,11 @@ h4 {
   .content {
     padding: 10px;
   }
-  .work-top {
+  .top {
     padding: 100px 10px 10px;
     max-width: 100%;
   }
-  .work-top .title {
+  .top .title {
     font-size: 44px;
     text-align: center;
   }
@@ -285,13 +295,15 @@ h4 {
     font-size: 32px;
   }
 
-  .work-top {
+  .top {
     padding: 70px 10px 0px;
   }
-  .work-top .title {
+  .top .title {
     font-size: 32px;
     text-align: start;
   }
-}
 
-/* ------------- */
+  .mail-link {
+    padding: 10px;
+  }
+}
