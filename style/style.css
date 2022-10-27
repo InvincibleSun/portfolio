@@ -47,6 +47,7 @@ nav {
 .navbar-collapse {
   text-align: end;
 }
+
 .navbar-nav .nav-link.active {
   color: var(--accent-color);
 }
