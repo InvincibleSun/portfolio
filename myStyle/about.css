@@ -1,0 +1,141 @@
+@import "./style.css";
+
+.hero-about {
+  height: 100%;
+  padding: 200px 10px 60px;
+}
+.hero-about .text {
+  margin-bottom: 50px;
+}
+.hero-about img {
+  box-shadow: var(--box-shadow);
+}
+.content-about {
+  padding-right: 94px;
+}
+.title-about {
+  font-family: var(--accent-font);
+  font-weight: 700;
+  font-size: 64px;
+  line-height: 1.3;
+}
+.subtitle-about {
+  font-weight: 700;
+  font-size: 18px;
+  color: var(--text-color);
+  margin: 30px 0;
+}
+.text-about {
+  font-size: 18px;
+  line-height: 1.9;
+  color: var(--text-color);
+  margin-bottom: 50px;
+}
+.skills {
+  display: flex;
+  gap: 80px;
+  margin: 180px 0px 50px;
+  flex-wrap: nowrap;
+}
+.skills h3 {
+  font-size: 22px;
+  text-align: center;
+  padding: 10px;
+}
+.soft-skills,
+.hard-skills {
+  flex: 1 1 50%;
+  background-color: var(--main-color);
+  border-radius: 20px;
+  padding: 10px;
+  border: var(--border);
+  box-shadow: 3px 1px 10px 3px var(--accent-color);
+}
+
+.skills li {
+  list-style: none;
+}
+/* .skills li::marker {
+  color: #b89584;
+  content: "❐  ";
+} */
+.list-item {
+  display: flex;
+  margin-top: 10px;
+  align-items: center;
+}
+.list-item i {
+  width: 37px;
+  font-size: 34px;
+  margin-right: 20px;
+  display: flex;
+  justify-content: center;
+}
+
+@media (max-width: 1200px) {
+  .hero-about {
+    padding: 100px 10px 80px;
+  }
+  .content-about {
+    padding: 10px;
+  }
+  .subtitle-about {
+    margin: 20px;
+  }
+  .text-about {
+    line-height: 1.5;
+    margin-bottom: 40px;
+  }
+  .skills {
+    margin: 60px 0px 20px;
+  }
+}
+
+@media (max-width: 992px) {
+  .accent-btn {
+    padding: 17px 30px;
+  }
+}
+
+@media (max-width: 768px) {
+  .hero-about {
+    padding: 70px 10px 20px;
+  }
+  .title-about {
+    font-size: 44px;
+  }
+  .skills {
+    gap: 40px;
+    flex-wrap: wrap;
+  }
+  .soft-skills,
+  .hard-skills {
+    flex: 1 0 100%;
+  }
+}
+
+@media (max-width: 576px) {
+  .title-about {
+    font-size: 32px;
+  }
+  .text-about {
+    line-height: 1.2;
+    font-size: 16px;
+    margin-bottom: 30px;
+  }
+  .skills {
+    font-size: 15px;
+  }
+  .skills h3 {
+    font-size: 17px;
+  }
+  .accent-btn {
+    padding: 12px 20px;
+  }
+}
+
+@media (max-width: 380px) {
+  .text-about {
+    font-size: 14px;
+  }
+}

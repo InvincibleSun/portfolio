@@ -1,0 +1,11 @@
+{
+  "devDependencies": {
+    "autoprefixer": "^10.4.13",
+    "postcss-cli": "^10.1.0"
+  },
+  "scripts": {
+    "autoprefixer": "postcss myStyle/*.css --use autoprefixer -d styles/" 
+  }
+}
+
+
